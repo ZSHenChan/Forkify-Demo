@@ -107,5 +107,6 @@ const init = function () {
   viewRecipe.addHandlerAddBookmark(controlAddBookmark);
   viewBookmarks.render(model.state.bookmarks);
   viewAddRecipe.addHandlerUploadRecipe(controlAddRecipe);
+  console.log('update');
 };
 init();
