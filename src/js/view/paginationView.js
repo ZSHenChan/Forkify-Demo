@@ -4,6 +4,10 @@ import icons from 'url:../../img/icons.svg';
 class ViewPagination extends View {
   _parentEl = document.querySelector('.pagination');
 
+  _pagination() {
+    console.log('pagination testing');
+  }
+
   _generateMarkUpBtnPrev(page) {
     return `<button class="btn--inline pagination__btn--prev" data-page="${
       page - 1
