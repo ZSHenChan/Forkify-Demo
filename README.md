@@ -1,5 +1,5 @@
 # forkify project - By Zhen
 
-This project is for demo only.
+This project focus on javascript!
 
 live url: https://main--forkify-zhen.netlify.app/
